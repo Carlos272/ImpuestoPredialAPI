@@ -56,7 +56,7 @@ router.post('/register', function (req, res) {
             });
         } else {
             res.status(200).send({
-                success: created,
+                success: true,
                 message: 'Usuario creado'
             });
         }
